@@ -11,7 +11,8 @@ action requests for [remote-control](https://github.com/matefehervari/remote-con
 
 # Configuration
 
-- Access remote browser settings by right clicking the extension and selected "Remote Browser Settings".
-- From settings page you can select
-    - Save: to save remote browser host settings
-    - Test: to save and test the remote browser host settings by opening "www.google.com"
+- Access remote browser settings by right clicking the extension and selecting "Remote Browser Settings".
+- From the settings page you can
+    - Enter the remote ip and port
+    - Click "Save" to save remote browser host settings
+    - Click "Test" to save and test the remote browser host settings by opening "www.google.com"
