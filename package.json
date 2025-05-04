@@ -1,0 +1,44 @@
+{
+  "name": "remote-browser",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build && tsx build-sw.ts",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "framer-motion": "^12.9.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "use-chrome-storage": "^1.3.2",
+    "vite-plugin-static-copy": "^2.3.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.22.0",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "@types/chrome": "^0.0.317",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "css-loader": "^7.1.2",
+    "eslint": "^9.22.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^16.0.0",
+    "nodemon": "^3.1.10",
+    "rollup": "^4.40.0",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "style-loader": "^4.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "~5.7.2",
+    "typescript-eslint": "^8.26.1",
+    "vite": "^6.3.1",
+    "vite-css-modules": "^1.8.6",
+    "vite-plugin-pwa": "^1.0.0",
+    "workbox-precaching": "^7.3.0"
+  }
+}
